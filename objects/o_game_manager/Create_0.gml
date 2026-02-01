@@ -1,0 +1,1 @@
+global.tag_player_collide = tag_get_asset_ids("player_collide", asset_object)

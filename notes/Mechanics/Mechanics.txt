@@ -1,0 +1,31 @@
+Procedural animation?
+
+You can move left or right
+Holding JUMP button will charge it up to 2.5x (release key to jump)
+pressing Interact button near a pole will grab on that
+
+charging a jump while grabbing on a pole will make 
+your character spin around said pole
+
+---
+
+> Actions available while on pole grab:
+> - Charged jump (angle is defaulted to 90deg but can be adjusted by 5 deg with left or right key)
+> - Release Interact button to drop down
+
+> Buttons:
+> * AD    - Move horizontally
+> * SPACE	- charge / jump
+> * K		- Interact / Hold
+> * M		- Throw spear (Stab instead if near a facing wall)
+	
+---
+
+The spear will have physics (similar to an arrow)
+if the spear dot product against a wall is angled
+it will not stick but will bounce off instead, rendering it useless
+
+spears stucked on a wall will despawn in 6 seconds
+if still grabbing, forcefully drops you
+
+spear angle to accept is in range of -+15 degrees
